@@ -1,0 +1,124 @@
+/* Reset box-sizing and body styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #fff; /* White background */
+}
+
+/* Heading styles with pink color */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  font-weight: bold;
+  color: #ff69b4; /* Pink color */
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+/* Code style with increased font size */
+code {
+  font-size: 1.2em;
+}
+
+/* List padding */
+ul {
+  padding-inline-start: 20px;
+}
+
+/* Square element style */
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+/* Board row */
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+/* Status style */
+.status {
+  margin-bottom: 10px;
+}
+
+/* Game style */
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Game info style */
+.game-info {
+  margin-left: 20px;
+}
+
+/* Navigation links */
+.nav {
+  background-color: #ff69b4; /* Pink background color */
+  padding: 10px 0; /* Add padding to the navigation */
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Center the navigation links */
+}
+
+.nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #fff; /* White text color */
+  font-weight: bold;
+}
+
+.nav li a:hover {
+  color: #000; /* Black text color on hover */
+}
